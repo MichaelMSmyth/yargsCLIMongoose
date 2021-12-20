@@ -1,0 +1,14 @@
+// Configure the dotenv package to get access to the .env
+require("dotenv").config();
+const mongoose = require("mongoose")
+
+const connection = async () => {
+    try {
+        await mongoose.connect(process.env.MONGO_URI)
+        console.log("successfully connected")
+    } catch (error) {
+        console.log(error)
+    }
+}
+
+connection()
