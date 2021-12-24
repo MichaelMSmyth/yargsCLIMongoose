@@ -77,6 +77,4 @@ app(yargs.argv);
 
 // Strech goals - Allow for filtered serch results (by name/actor/rating),
 // Create a second Schema/Model for TV shows with full CRUD operations
-// To be done for Friday afternoon
 
-// After the assignment is finished, add to OneFile
